@@ -1,0 +1,37 @@
+  "event": "payment.authorized",
+  "entity": "event",
+  "contains": [
+    "payment"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_6X6jcHoHdRdy79",
+        "entity": "payment",
+        "amount": 50000,
+        "currency": "INR",
+        "status": "authorized",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "method": "card",
+        "order_id": "order_6X4mcHoSXRdy79",
+        "card_id": "card_6GfX4mcIAdsfDQ",
+        "bank": null,
+        "captured": true,
+        "email": "gaurav.kumar@example.com",
+        "contact": "9123456780",
+        "description": "Payment Description",
+        "error_code": null,
+        "error_description": null,
+        "fee": 200,
+        "tax": 10,
+        "international": false,
+        "notes": {
+          "reference_no": "848493"
+        },
+        "vpa": null,
+        "wallet": null
+      }
+    },
+    "created_at": 1400826760
+  }

@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "wiremock.server.host",
+    "type": "java.lang.String",
+    "description": "host IP or FQDN binding for the server"
+  },
+  {
+    "name": "wiremock.server.port",
+    "type": "java.lang.String",
+    "description": "Port binding for the server"
+  },
+  {
+    "name": "wiremock.server.mappings.root",
+    "type": "java.lang.String",
+    "description": "location where mappings files are stored"
+  },
+  {
+    "name": "wiremock.server.files.root",
+    "type": "java.lang.String",
+    "description": "location where the static data files for responses are stored"
+  }
+]}
